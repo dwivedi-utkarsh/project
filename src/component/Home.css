@@ -1,0 +1,32 @@
+.container{
+  border: 2px solid gray;
+}
+
+.skills{
+  border: 2px solid gray ;
+}
+
+
+.frontend  h4{
+  color: gold;
+  font-weight: bolder;
+  
+
+}
+.Backend h4{
+  color: gold;
+  font-weight: bolder;
+
+}
+
+.Databases h4{
+  color: gold;
+  font-weight: bolder;
+}
+
+.Programming-Languages h4{
+  color: gold;
+  font-weight: bolder;
+
+}
+

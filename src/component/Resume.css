@@ -1,0 +1,111 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  height: auto;
+  width: auto;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+.resume {
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+a {
+  color: #0073b1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.contact, .summary, .experience, .education, .skills, .DECLARATION, .Certification, .Projects {
+  padding: 10px;
+  border-left: 5px solid #0073b1;
+  background: #fff;
+}
+
+.job {
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 20px;
+  border-radius: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+  .resume {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  section {
+    padding: 8px;
+  }
+
+  .progress {
+    height: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .resume {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  section {
+    padding: 5px;
+  }
+
+  .progress {
+    height: 12px;
+  }
+}
